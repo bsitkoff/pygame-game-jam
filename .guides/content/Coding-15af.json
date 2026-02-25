@@ -1,0 +1,32 @@
+{
+	"id": "15af0f4f-8a0e-4957-ad1c-d9c4b1100031",
+	"title": "Coding",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "game.py",
+			"panel": 1,
+			"action": "open"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"panel": 2,
+			"action": "open"
+		},
+		{
+			"path": "#terminal: ",
+			"panel": 3,
+			"action": "open"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "4-cell-guides-left"
+}

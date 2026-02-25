@@ -1,0 +1,20 @@
+{
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"title": "Game Jam",
+	"order": [
+		"Planning-c415",
+		"Coding-15af",
+		"Playtest-and-Reflect-e513"
+	]
+}

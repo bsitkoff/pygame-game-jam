@@ -1,0 +1,17 @@
+{
+	"id": "c415d8c8-02d5-4b25-8722-cf95901bfd06",
+	"title": "Planning",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel-tree"
+}
