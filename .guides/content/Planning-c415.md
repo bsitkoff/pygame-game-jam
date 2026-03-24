@@ -1,47 +1,78 @@
 ## Planning
 
-> 📹 **Watch:** Game Jam Orientation
-> *Record in Screencastify — explain the three tiers (mild/medium/spicy), what's expected for each, and how the design doc works*
-> *Objective: I understand the three tiers and what's expected for each.*
-> **[ADD VIDEO URL WHEN RECORDED]**
+This is your capstone project. You'll design and build a complete game from scratch using everything you've learned in this unit.
+
+There are three tiers — pick the one that fits where you are right now. All three are real games. The difference is scope, not quality.
 
 ---
 
-Before you write a line of code, you need a plan. Use this page to design your game.
-
 ### Choose Your Tier
 
-| Tier | What's Required |
-|------|----------------|
-| 🟢 Mild | Moving player, one enemy, one collectible, score display |
-| 🟡 Medium | Everything in Mild + game states (start/playing/game over) + custom sprites |
-| 🔴 Spicy | Everything in Medium + at least one list of sprites + a unique mechanic |
+**🟢 Mild — Catcher Game**
+Build a falling-objects catcher. Your player moves left and right along the bottom of the screen. Objects fall from the top. Catch them for points, and track a score.
 
-> *[TODO: insert free-text-auto or free-text assessment — "Which tier are you attempting? Explain your choice."]*
+The only new idea: making things fall is just `y += speed` inside `update()`. Everything else you've already done.
+
+**🟡 Medium — Original Game**
+Design and build your own game using the mechanics from this unit: Actors, keyboard input, collision detection, score/lives tracking, and game states (start, playing, game over). Your theme. Your rules. Your design. The catch: you also need at least one mechanic you invent yourself — something we didn't build together in class.
+
+**🔴 Spicy — Realistic Motion**
+Build a game that uses **velocity variables** (`dx` and `dy`) for smooth, realistic motion. Instead of moving a fixed amount per keypress, you change the velocity — and the velocity changes the position. This is how real physics works in games: gravity adds to `dy` each frame, bouncing reverses `dx` or `dy`, friction reduces speed over time.
+
+What kind of game you make is up to you — a bouncing ball game, a gravity platformer, a projectile launcher, whatever you want. The unit mechanics still apply; the new piece is figuring out velocity-based movement yourself.
+
+> *[ASSESSMENT NEEDED: Create a free-text-auto assessment in the Codio GUI — question: "Which tier are you attempting? Why did you choose it?"]*
 
 ---
 
 ### Design Your Game
 
-Answer these questions before you start coding. You can write answers directly below — or on paper if you prefer.
+Before you write any code, answer these questions:
 
-**Theme and concept:**
-- What is your game about? (one sentence)
-- Who is the player character? What do they want?
-- What is the enemy/obstacle? What makes it threatening?
+**Your concept:**
+- What's your game about? (one sentence)
+- Who or what is the player? What are they trying to do?
+- What's working against them? (enemy, timer, gravity, obstacles?)
 
-**Mechanics:**
+**Your mechanics:**
 - How does the player move?
-- What does the player collect or avoid?
+- What does the player collect, avoid, or interact with?
 - What ends the game?
-- *(Spicy: What is your unique mechanic?)*
+- *(Medium/Spicy)* What's your unique or new mechanic?
 
-**Sprites you'll need:**
-- List each sprite and what image you'll use
-- Make sure you have all images in the `images/` folder before you start coding
+**Your sprites:**
+- List every sprite you need and what image you'll use
+- Get your images into the `images/` folder before you start coding
 
-> *[TODO: Add a formal planning form / free-text assessment here]*
+> *[ASSESSMENT NEEDED: Create a free-text-auto assessment in the Codio GUI — question: "Describe your game concept and list the sprites and mechanics you plan to use."]*
 
 ---
 
-**Reference:** Check `mild_example.py` in the file tree for a complete example of a Mild tier game.
+### Quick Reference — Where You've Seen This Before
+
+You've already written code for every pattern below. When you get stuck, go back and look at the working code in that lesson.
+
+| Pattern | Where to find it |
+|---------|------------------|
+| Creating Actors and drawing them | Lesson 1 (`explore.py`) |
+| Keyboard input for movement | Lesson 2 (`move.py`) |
+| Keeping the player on screen (boundaries) | Lesson 2 (`move.py`) |
+| Collision detection with `colliderect()` | Lesson 3 (`collide.py`) |
+| Making a sprite chase the player | Lesson 3 (`collide.py`) |
+| The `global` keyword for score/state variables | Lesson 4 (`track.py`) |
+| Game states: start, playing, game over | Lesson 4 (`track.py`) |
+| Displaying text with `screen.draw.text()` | Lesson 4 (`track.py`) |
+| Restarting with `on_key_down()` | Lesson 4 (`track.py`) |
+| Designing readable UI and consistent screens | Lesson 5 (`interface.py`) |
+| Lists of sprites with `for` loops | Lesson 6 (`lists.py`) |
+| Collision checking across a list | Lesson 6 (`lists.py`) |
+| Making things fall: `actor.y += speed` | New — but it's one line! |
+| Velocity with `dx`/`dy` (Spicy only) | New — you figure this one out |
+
+---
+
+|||important
+## No AI on this one
+
+This is a "show what you know" project. You can use your notes, your earlier Codio projects, and you can ask Ms. Sitkoff for help — but no AI tools and no copying code from outside sources. You'll have other projects where those tools are fair game, but this one is about demonstrating what *you* can write.
+|||

@@ -2,22 +2,28 @@
 
 It's Game Jam day — share your game!
 
-Play at least **two** of your classmates' games. Leave them feedback.
+---
 
-**For each game you play, tell them:**
-- One thing that works really well
-- One specific suggestion for improvement
+### Playtesting
+
+Play at least **two** of your classmates' games. For each one, tell them:
+
+1. One thing that works really well
+2. One specific suggestion for improvement
+
+Then have at least two classmates play yours. Pay attention to where they get confused or stuck — that tells you more than what they say out loud.
+
+> *[ASSESSMENT NEEDED: Create a free-text-auto assessment in the Codio GUI — question: "Who playtested your game, and what feedback did they give you? Did anything surprise you about how they played it?"]*
 
 ---
 
-**Reflect on your own game:**
+### Reflect
 
-> *[TODO: insert free-text assessment (manual grading) — these are more open-ended reflections worth teacher review]*
+> *[ASSESSMENT NEEDED: Create a free-text-auto assessment in the Codio GUI — question: "This project offered three difficulty levels (mild, medium, spicy). Which did you choose and why? Are you happy with that choice?"]*
 
-1. What tier did you complete? Are you happy with that choice?
-2. What's the hardest problem you solved while coding this game?
-3. What would you add if you had one more day?
-4. Did you use AI assistance? If so, for what — and how did you make sure you understood the code it helped you write?
+> *[ASSESSMENT NEEDED: Create a free-text-auto assessment in the Codio GUI — question: "What was the hardest problem you solved while building this game? How did you figure it out?"]*
+
+> *[ASSESSMENT NEEDED: Create a free-text assessment (manual grading) in the Codio GUI — question: "What would you add to your game if you had one more day? Be specific about what the feature would do and how you'd code it."]*
 
 ---
 
