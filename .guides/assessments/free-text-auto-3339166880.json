@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-3339166880",
+	"source": {
+		"name": "Tier Choice",
+		"showName": false,
+		"instructions": "Which tier are you attempting? Why did you choose it?",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'Which tier are you attempting? Why did you choose it?'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "planning"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "self-assessment, planning",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

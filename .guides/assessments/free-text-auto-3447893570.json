@@ -1,0 +1,54 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-3447893570",
+	"source": {
+		"name": "Autograder Reflection",
+		"showName": false,
+		"instructions": "How did the autograder score your game? If anything scored lower than you expected, explain what you think is happening in your code and why the test might have missed it.",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'How did the autograder score your game? If anything scored lower than you expected, explain what you think is happening in your code and why the test might have missed it.'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "reflection"
+				}
+			],
+			"files": [
+				"game.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "game.py"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 2,
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 3,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "self-assessment, debugging",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

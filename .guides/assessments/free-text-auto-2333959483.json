@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-2333959483",
+	"source": {
+		"name": "Playtesting Feedback",
+		"showName": false,
+		"instructions": "Who playtested your game, and what feedback did they give you? Did anything surprise you about how they played it?",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'Who playtested your game, and what feedback did they give you? Did anything surprise you about how they played it?'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "reflection"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "peer feedback, playtesting",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

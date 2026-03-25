@@ -21,7 +21,9 @@ Build a game that uses **velocity variables** (`dx` and `dy`) for smooth, realis
 
 What kind of game you make is up to you — a bouncing ball game, a gravity platformer, a projectile launcher, whatever you want. The unit mechanics still apply; the new piece is figuring out velocity-based movement yourself.
 
-> *[ASSESSMENT NEEDED: Create a free-text-auto assessment in the Codio GUI — question: "Which tier are you attempting? Why did you choose it?"]*
+Which tier are you attempting? Why did you choose it?
+
+{Check It!|assessment}(free-text-auto-3339166880)
 
 ---
 
@@ -34,17 +36,22 @@ Before you write any code, answer these questions:
 - Who or what is the player? What are they trying to do?
 - What's working against them? (enemy, timer, gravity, obstacles?)
 
+{Check It!|assessment}(free-text-auto-3574462663)
+
 **Your mechanics:**
 - How does the player move?
 - What does the player collect, avoid, or interact with?
 - What ends the game?
 - *(Medium/Spicy)* What's your unique or new mechanic?
 
+{Check It!|assessment}(free-text-auto-967543816)
+
 **Your sprites:**
 - List every sprite you need and what image you'll use
 - Get your images into the `images/` folder before you start coding
 
-> *[ASSESSMENT NEEDED: Create a free-text-auto assessment in the Codio GUI — question: "Describe your game concept and list the sprites and mechanics you plan to use."]*
+{Check It!|assessment}(free-text-auto-2697697793)
+
 
 ---
 

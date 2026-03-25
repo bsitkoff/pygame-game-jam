@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-2040011335",
+	"source": {
+		"name": "Hardest Problem",
+		"showName": false,
+		"instructions": "What was the hardest problem you solved while building this game? How did you figure it out?",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'What was the hardest problem you solved while building this game? How did you figure it out?'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "reflection"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "problem-solving, metacognition",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

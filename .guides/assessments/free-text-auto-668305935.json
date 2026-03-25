@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-668305935",
+	"source": {
+		"name": "Tier Reflection",
+		"showName": false,
+		"instructions": "This project offered three difficulty levels (mild, medium, spicy). Which did you choose and why? Are you happy with that choice?",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'This project offered three difficulty levels (mild, medium, spicy). Which did you choose and why? Are you happy with that choice?'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "reflection"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "self-assessment, reflection",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

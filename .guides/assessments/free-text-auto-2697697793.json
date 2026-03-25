@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-2697697793",
+	"source": {
+		"name": "Sprite Plan",
+		"showName": false,
+		"instructions": "List every sprite you need and what image you'll use for each one.",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'List every sprite you need and what image you will use for each one.'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "planning"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "game design, asset planning",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

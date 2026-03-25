@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-967543816",
+	"source": {
+		"name": "Game Mechanics",
+		"showName": false,
+		"instructions": "Describe your game mechanics: How does the player move? What does the player collect, avoid, or interact with? What ends the game? If Medium/Spicy, what's your unique or new mechanic?",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'Describe your game mechanics: how the player moves, what they interact with, what ends the game, and any unique mechanics.'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "planning"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "game design, mechanics planning",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-3574462663",
+	"source": {
+		"name": "Game Concept",
+		"showName": false,
+		"instructions": "Describe your game concept: What's your game about? Who or what is the player? What are they trying to do? What's working against them?",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'Describe your game concept: what is it about, who is the player, what are they trying to do, and what is working against them?'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "planning"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "game design, planning",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

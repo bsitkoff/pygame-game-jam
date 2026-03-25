@@ -1,0 +1,19 @@
+{
+	"title": "M4: Game Jam",
+	"theme": "light",
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Planning-c415",
+		"Coding-15af",
+		"Playtest-and-Reflect-e513"
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"type": "free-text-auto",
+	"taskId": "free-text-auto-1215699437",
+	"source": {
+		"name": "Next Steps",
+		"showName": false,
+		"instructions": "What would you add to your game if you had one more day? Be specific about what the feature would do and how you'd code it.",
+		"command": "python3 .guides/secure/freetext.py --use-llm --question 'What would you add to your game if you had one more day? Be specific about what the feature would do and how you would code it.'",
+		"timeoutSeconds": 40,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text Autograde"
+				},
+				{
+					"name": "Content",
+					"value": "reflection"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "design thinking, planning",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"arePartialPointsAllowed": false,
+		"previewType": "NONE",
+		"points": 5,
+		"useMaximumScore": false
+	}
+}

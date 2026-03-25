@@ -1,0 +1,107 @@
+{
+	"type": "llm-based-auto-rubric",
+	"taskId": "llm-based-auto-rubric-2390594072",
+	"source": {
+		"name": "Game Code Check",
+		"showName": false,
+		"instructions": "Click Check It to have your game code evaluated. The autograder will check for the core mechanics you've learned in this unit.",
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "LLM Rubric"
+				},
+				{
+					"name": "Content",
+					"value": "game programming"
+				}
+			],
+			"files": [
+				"game.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "game.py"
+				},
+				{
+					"type": "preview",
+					"panelNumber": 2,
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"panelNumber": 3,
+					"content": ""
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "6",
+		"learningObjectives": "game programming, PyGame Zero",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 8,
+		"arePartialPointsAllowed": true,
+		"rubrics": [
+			{
+				"id": "1",
+				"title": "Player Actor with keyboard input",
+				"description": "Game has a player Actor that moves with keyboard input (e.g., arrow keys or WASD)",
+				"points": 1
+			},
+			{
+				"id": "2",
+				"title": "Screen boundaries",
+				"description": "Player stays within screen boundaries and cannot move off-screen",
+				"points": 1
+			},
+			{
+				"id": "3",
+				"title": "Additional Actor interaction",
+				"description": "Game includes at least one other Actor that the player interacts with (collectible, enemy, obstacle)",
+				"points": 1
+			},
+			{
+				"id": "4",
+				"title": "Collision detection",
+				"description": "Collision detection works using colliderect() or similar collision method",
+				"points": 1
+			},
+			{
+				"id": "5",
+				"title": "Score or lives tracking",
+				"description": "Game tracks score or lives using a global variable",
+				"points": 1
+			},
+			{
+				"id": "6",
+				"title": "Game states",
+				"description": "Game has at least two states (e.g., start and playing, or playing and game over)",
+				"points": 1
+			},
+			{
+				"id": "7",
+				"title": "Text display",
+				"description": "Game displays text on screen (score, instructions, or game over message) using screen.draw.text()",
+				"points": 1
+			},
+			{
+				"id": "8",
+				"title": "Code runs without errors",
+				"description": "Code is syntactically correct and would run without Python errors",
+				"points": 1
+			}
+		],
+		"rubricsRequirements": "This is a PyGame Zero game. Students are building a complete game from scratch using Actor objects, keyboard input, collision detection, score tracking, game states, and text display. Evaluate the code in game.py against each rubric item.",
+		"solutions": [
+			{
+				"path": ".guides/secure/solution_game.py",
+				"content": ""
+			}
+		]
+	}
+}

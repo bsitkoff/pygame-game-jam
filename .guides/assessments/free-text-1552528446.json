@@ -1,0 +1,41 @@
+{
+	"type": "free-text",
+	"taskId": "free-text-1552528446",
+	"source": {
+		"name": "assistance_allowed",
+		"showName": false,
+		"instructions": "**Academic Integrity Statement**\nPlease describe any extra help you received on this assignment. Getting help is okay!\nIf you did this work completely on your own, type \"I did this work on my own.\"\nIf you got help from anyone or anywhere else, describe it here following the [Computer Science assistance policy](https://docs.google.com/document/d/1KCmAOijnNBKLN8nssC6Z-ZnyAD5p1x_fqTyPs0WIyNA/edit?usp=sharing).",
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Free Text"
+				},
+				{
+					"name": "Content",
+					"value": "integrity"
+				},
+				{
+					"name": "Programming Language",
+					"value": "any"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "5",
+		"learningObjectives": "academic integrity",
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"previewType": "NONE",
+		"arePartialPointsAllowed": false,
+		"points": 20,
+		"rubrics": []
+	},
+	"linkedId": "3d23565e-6c7f-49ab-a5c8-7f88ff38a2c4",
+	"libraryId": "033a2f60-a38b-4bf4-8454-52dac9715163",
+	"version": 1
+}
